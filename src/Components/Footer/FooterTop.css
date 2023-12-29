@@ -1,0 +1,110 @@
+.row-main{
+    background-color:rgb(34, 34, 34);
+    width: 100%;
+}
+.row-second{
+    padding: 100px;
+}
+.row-second:after {
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: 100%; /* Change this to whatever width you want. */
+    padding-top: 80px; /* This creates some space between the element and the border. */
+    border-bottom: 1px solid #fff; /* This creates the border. Replace black with whatever color you want. */
+}
+.row-third{
+    display: flex;
+    justify-content:space-between;
+}
+.style-heading{ 
+    width: 50rem;
+    color:white;
+    line-height: 1.2;
+    font-size: 40px;
+    font-weight: 550;
+   
+}
+.link-contact-style{
+    font-size: larger;
+    color: rgb(3, 187, 187);
+    text-decoration: none;
+     display: inline-block;
+}
+.link-contact-style:hover{
+    transition: all 0.3s;
+    font-weight: bold;
+    text-decoration:underline;
+}
+.style-icon{
+    float:right;
+    color: rgb(3, 187, 187);
+    padding:0.3em;
+}
+@media (max-width: 1024px){
+    .row-third{
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+    }
+    .style-heading{
+        width: auto;
+        color:white;
+        line-height: 1.2;
+        font-size: 25px;
+        font-weight: 550;
+    }
+    .row-second{
+        padding: 30px;
+        padding-top: 60px;
+    }
+    .row-second:after {
+        content: ""; /* This is necessary for the pseudo element to work. */ 
+        display: block; /* This will put the pseudo element on its own line. */
+        margin: 0 auto; /* This will center the border. */
+        width: auto; /* Change this to whatever width you want. */
+        padding-top: 35px; /* This creates some space between the element and the border. */
+        border-bottom: 1px solid #fff; /* This creates the border. Replace black with whatever color you want. */
+    }
+    .link-contact-style{
+        padding-top: 25px;
+        font-size: larger;
+        color: rgb(3, 187, 187);
+        text-decoration: none;
+    }
+}
+@media screen and (max-width: 1280px) and (min-width : 1024px){
+    .row-third{
+        display: flex;
+        justify-content:space-between;
+    }
+    .style-heading{
+        width: auto;
+        color:white;
+        line-height: 1.2;
+        font-size: 25px;
+        font-weight: 550;
+    }
+    .row-second{
+        padding: 50px;
+    }
+    .row-second:after {
+        content: ""; /* This is necessary for the pseudo element to work. */ 
+        display: block; /* This will put the pseudo element on its own line. */
+        margin: 0 auto; /* This will center the border. */
+        width: auto; /* Change this to whatever width you want. */
+        padding-top: 70px; /* This creates some space between the element and the border. */
+        border-bottom: 1px solid #fff; /* This creates the border. Replace black with whatever color you want. */
+    }
+    .link-contact-style{
+        
+        font-size: large;
+        color: rgb(3, 187, 187);
+        text-decoration: none;
+    }
+    .style-icon{
+        float:right;
+        color: rgb(3, 187, 187);
+        padding:0.1em;
+    }
+}

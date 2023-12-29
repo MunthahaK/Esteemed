@@ -1,0 +1,77 @@
+.contact_banner{
+    width: 100%;
+    background-size:cover;
+    background-position: center;
+    color: white;
+    object-fit:contain;
+    height: 350px;  
+}
+.contact_fade{ 
+    background-image: linear-gradient(to right,rgba(0,0,0,1),rgba(0,0,0,0)50%);
+    background-color: rgba(0,0,0,0.3);
+    height: 350px;
+}
+.contact_banner_contents{
+    margin-left: 80px;
+    padding-top: 200px;
+   
+}
+.contact_banner_title{
+    font-size: 3.1rem;
+    font-weight: 800;
+    
+}
+@media (max-width:500px){
+    .contact_banner{
+        height: 300px;
+    }
+    .contact_fade{
+        height: 300px;
+    }
+    .contact_banner_contents{
+        margin-left: 0px;
+        padding-top: 150px;
+        align-items: center;
+        justify-content: center;
+    }
+    .contact_banner_title{
+        font-size: 2.5rem;
+        font-weight: 800;
+        padding-bottom: 0.3rem;
+        text-align: center;
+        
+    }
+}
+@media screen and (max-width: 736px) and (min-width : 500px){
+    .contact_banner{
+        height: 300px;
+    }
+    .contact_fade{ 
+        background-image: linear-gradient(to right,rgba(0,0,0,1),rgba(0,0,0,0)50%);
+        background-color: rgba(0,0,0,0.3);
+        height: 300px;
+    }
+    .contact_banner_contents{
+        align-items: center;
+        justify-content: center;
+        margin-left: 0px;
+        padding-top: 150px;
+    }
+    .contact_banner_title{
+        font-size: 2.5rem;
+        font-weight: 800; 
+        text-align: center;
+    }
+}
+@media screen and (max-width: 1024px) and (min-width : 768px){
+    .contact_banner{
+        height: 350px;
+    }
+    .contact_fade{ 
+        height: 350px;
+    }
+    .contact_banner_contents{
+        margin-left: 50px;
+        padding-top: 190px;
+    }
+}

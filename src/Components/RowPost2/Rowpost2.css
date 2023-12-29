@@ -1,0 +1,306 @@
+.main-row{
+    width: 100%;
+    display: flex;
+    background-color:#fff ;
+    color: black;
+}
+.image-section{
+   padding-top:90px;
+   padding-left: 70px;
+   padding-bottom: 100px;
+   
+}
+.image-style2{
+    object-fit:contain;
+    max-width: 450px;
+}
+.text-section{
+    padding-top:90px;
+    padding-left: 40px;
+}
+.title-feature{
+    padding-bottom:20px;
+    font-size: larger;
+    font-weight: 500;
+}
+.second-title{
+    font-weight: 600;
+    font-size:40px;
+    line-height: 1.2;
+    width: 40rem;
+}
+.description-style{
+    padding-top: 30px;
+    font-size:large;
+    font-weight: 400;
+    width: 44rem;
+}
+.list-items{
+    font-weight: 450;
+    padding-top: 30px;
+    list-style: none;
+    line-height: 2.5;
+    font-size: larger;
+}
+.star-style{
+    padding-right: 20px; 
+    color: black;
+}
+.box{
+    place-items: center;
+    position: absolute;
+    margin-top: -130px;
+    margin-left: 250px;
+    background-color: #7bdcb5;
+    padding: 45px; 
+}
+.box-text{
+    text-align: center;
+    font-weight: 500;
+    width: 10rem;
+    font-size: 1.1rem;
+    color: black;
+}
+@media (max-width: 375px){
+    .main-row{
+        display: flex;
+        flex-direction: column;
+        background-color:#fff ;
+        color: black;
+        align-items: center;
+        place-items: center;
+    }
+    .image-section{
+        align-self: center;
+        place-items: center;
+        padding-top:70px;
+        padding-left: 0px;
+        padding-bottom:0px;
+     }
+     .image-style2{
+        object-fit:contain;
+        max-width:300px;
+     }
+     .box{
+        place-items: center;
+        position: absolute;
+        margin-top: -130px;
+        margin-left: 35px;
+        background-color: #7bdcb5;
+        padding: 35px;
+    }
+     .text-section{
+        width: auto;
+        padding: 20px;
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+    .second-title{
+        font-weight: 600;
+        font-size:25px;
+        line-height: 1.2;
+        width: auto;
+    }
+    .description-style{
+        padding-top: 30px;
+        font-size:medium;
+        font-weight: 400;
+        width: auto;
+    }
+    .list-items{
+        font-weight: 450;
+        padding-top: 30px;
+        list-style: none;
+        line-height: 2.5;
+        font-size: medium;
+    }
+
+}
+@media screen and (max-width: 500px) and (min-width : 375px){
+    .main-row{
+        display: flex;
+        flex-direction: column;
+        background-color:#fff ;
+        color: black;
+        align-items: center;
+        place-items: center;
+    }
+    .image-section{
+        align-self: center;
+        place-items: center;
+        padding-top:70px;
+        padding-left: 0px;
+        padding-bottom:0px;
+     }
+     .image-style2{
+        object-fit:contain;
+        max-width:300px;
+     }
+     .box{
+        place-items: center;
+        position: absolute;
+        margin-top: -130px;
+        margin-left: 35px;
+        background-color: #7bdcb5;
+        padding: 35px;
+    }
+     .text-section{
+        width: auto;
+        padding: 20px;
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+    .second-title{
+        font-weight: 600;
+        font-size:25px;
+        line-height: 1.2;
+        width: auto;
+    }
+    .description-style{
+        padding-top: 30px;
+        font-size:medium;
+        font-weight: 400;
+        width: auto;
+    }
+    .list-items{
+        font-weight: 450;
+        padding-top: 30px;
+        list-style: none;
+        line-height: 2.5;
+        font-size: medium;
+    }
+}
+@media screen and (max-width: 600px) and (min-width : 500px){
+    .main-row{
+        display: flex;
+        flex-direction: column;
+        background-color:#fff ;
+        color: black;
+        align-items: center;
+        place-items: center;
+    }
+    .image-section{
+        align-self: center;
+        place-items: center;
+        padding-top:70px;
+        padding-left: 10px;
+        padding-bottom:0px;
+     }
+     .box{
+        place-items: center;
+        position: absolute;
+        margin-top: -130px;
+        margin-left: 110px;
+        background-color: #7bdcb5;
+        padding: 35px;
+    }
+     .text-section{
+        width: auto;
+        padding: 20px;
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+    .second-title{
+        font-weight: 600;
+        font-size:25px;
+        line-height: 1.2;
+        width: auto;
+    }
+    .description-style{
+        padding-top: 30px;
+        font-size:medium;
+        font-weight: 400;
+        width: auto;
+    }
+    .list-items{
+        font-weight: 450;
+        padding-top: 30px;
+        list-style: none;
+        line-height: 2.5;
+        font-size: medium;
+    }
+}
+@media screen and (max-width: 960px) and (min-width : 600px){
+    .main-row{
+        display: flex;
+        flex-direction: column;
+        background-color:#fff ;
+        color: black;
+        align-items: center;
+        place-items: center;
+    }
+    .image-section{
+        align-self: center;
+        place-items: center;
+        padding-top:70px;
+        padding-left: 10px;
+        padding-bottom:0px;
+     }
+     .box{
+        place-items: center;
+        position: absolute;
+        margin-top: -130px;
+        margin-left: 250px;
+        background-color: #7bdcb5;
+        padding: 35px;
+    }
+     .text-section{
+        width: auto;
+        padding: 20px;
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+    .second-title{
+        font-weight: 600;
+        font-size:25px;
+        line-height: 1.2;
+        width: auto;
+    }
+    .description-style{
+        padding-top: 30px;
+        font-size:medium;
+        font-weight: 400;
+        width: auto;
+    }
+    .list-items{
+        font-weight: 450;
+        padding-top: 30px;
+        list-style: none;
+        line-height: 2.5;
+        font-size: medium;
+    }
+
+}
+@media screen and (max-width: 1280px) and (min-width : 960px){
+    .image-section{
+        padding-top:90px;
+       padding-left: 40px;
+       padding-bottom: 100px;
+     }
+     .text-section{
+        padding: 0px;
+        padding-right: 25px;
+        padding-top:90px;
+        padding-left: 10px;
+    }
+    .second-title{
+        font-weight: 600;
+        font-size:30px;
+        line-height: 1.2;
+        width: auto;
+    }
+    .description-style{
+        padding-top: 30px;
+        font-size:medium;
+        font-weight: 400;
+        width: auto;
+    }
+    .list-items{
+        font-weight: 450;
+        padding-top: 30px;
+        list-style: none;
+        line-height: 2.5;
+        font-size: medium;
+    }
+}
+

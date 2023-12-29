@@ -1,0 +1,128 @@
+.main{
+    background-color:rgb(34, 34, 34);
+    width: 100%;
+    border-bottom: 1px solid rgb(85, 84, 84);
+}
+.content_box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+   justify-content: center;
+   padding-bottom: 70px;  
+}
+.heading_style{
+    margin-left: 100px;
+    padding-bottom: 8%;
+    font-size: larger;
+    font-weight: 500;
+   color: white;
+}
+.title_box{
+    margin-left: 100px;
+    line-height: 1.7;
+}
+.title_style{
+    color: rgb(199, 198, 198);
+    font-weight: 100;
+    font-size:15px;
+    display: flex;
+}
+.title_style2{
+    color: rgb(199, 198, 198);
+    font-weight: 100;
+    font-size:15px;
+    display: flex;
+}
+a:link{
+    text-decoration: none;
+}
+.title_style:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.link_style{
+    color: rgb(3, 185, 185);
+}
+.icon_style{
+    width: 16;
+    height: 16;
+    color: rgb(255, 255, 255);
+}
+
+.box_icon{
+  display: flex;
+}
+.icon_card{
+    display:flex;
+    margin-left: 5px;
+    justify-content: center;
+    align-items: center;
+    width: 2rem;
+    height: 2rem;
+    background-color:rgb(3, 3, 3);
+    border-radius: 9px;
+}
+.icon_card:hover{
+    background-color: teal;
+    cursor: pointer;
+}
+@media (max-width: 500px){
+    .content_box{
+        display: flex;
+        flex-direction: column;
+       padding-top: 70px;  
+       padding-bottom: 50px;  
+      }
+    .heading_style{
+        margin-left: 60px;
+        padding-bottom: 1%;
+        font-size: larger;
+        font-weight: 500;
+       color: white;
+    }
+    .title_box{
+        margin-left: 60px;
+        margin-bottom:50px ;
+        line-height: 1.7;
+    }
+}@media screen and (max-width: 800px) and (min-width : 500px){
+    .content_box{
+        display: grid;
+        grid-template-columns: 1fr;
+       padding-top: 70px;  
+       padding-bottom: 50px;  
+      }
+      .heading_style{
+        margin-left: 90px;
+        padding-bottom: 2%;
+        font-size: larger;
+        font-weight: 500;
+       color: white;
+    }
+    .title_box{
+        margin-left: 90px;
+        margin-bottom:50px ;
+        line-height: 1.7;
+    }
+}
+@media screen and (max-width: 1024px) and (min-width : 801px){
+    .content_box{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+       padding-top: 70px;  
+       padding-bottom: 50px;  
+      }
+      .heading_style{
+        margin-left: 150px;
+        padding-bottom: 2%;
+        font-size: larger;
+        font-weight: 500;
+       color: white;
+    }
+    .title_box{
+        margin-left: 150px;
+        margin-bottom:50px ;
+        line-height: 1.7;
+    }
+}
+
+

@@ -1,0 +1,203 @@
+.AboutRow3-background{
+    width: 100%;
+    background-size:cover;
+    background-position:right;
+    object-fit:contain;
+    background-attachment: fixed;
+    display: flex;
+}
+.AboutRow3-background-contents{
+    padding: 6rem;
+    background-color: rgba(247, 244, 244, 0.920);
+   color: black;
+   display: flex;
+}
+.AboutRow3-columns{
+    display: flex;
+    flex-direction: column;
+}
+.AboutRow3-column1{
+    padding: 40px;
+}
+.AboutRow3-column2{
+    padding: 40px;
+}
+.AboutRow3-title{
+    font-size:x-large;
+    font-weight: 700;
+}
+.AboutRow3-description{
+    padding-top: 25px;
+    font-size: medium;
+    font-weight: 400;
+    line-height:2;
+}
+.AboutRow3-image-style{
+    object-fit:cover;
+    width: 450px;
+    height: 550px;
+}
+@media (max-width:500px){
+    .AboutRow3-background-contents{
+        padding: 0rem;
+        background-color: rgba(247, 244, 244, 0.920);
+       color: black;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+    }
+    .AboutRow3-columns{
+        padding-top: 50px;
+        padding-bottom: 30px;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .AboutRow3-column1{
+        padding: 20px;
+    }
+    .AboutRow3-column2{
+        padding-top: 30px;
+        padding: 20px;
+    }
+    .AboutRow3-title{
+        font-size:larger;
+        font-weight: 700;
+    }
+    .AboutRow3-description{
+        padding-top: 25px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height:1.6;
+    }
+    .AboutRow3-image-style{
+        object-fit:cover;
+        max-width: 300px;
+        height: 400px;
+        padding-bottom: 50px;
+    }
+}
+@media screen and (max-width: 780px) and (min-width : 501px){
+    .AboutRow3-background-contents{
+        padding: 0rem;
+        background-color: rgba(247, 244, 244, 0.920);
+       color: black;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+    }
+    .AboutRow3-columns{
+        padding-top: 50px;
+        padding-bottom: 30px;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .AboutRow3-column1{
+        padding: 20px;
+    }
+    .AboutRow3-column2{
+        padding-top: 30px;
+        padding: 20px;
+    }
+    .AboutRow3-title{
+        font-size:larger;
+        font-weight: 700;
+    }
+    .AboutRow3-description{
+        padding-top: 25px;
+        font-size: 15px;
+        font-weight: 400;
+        line-height:1.7;
+    }
+    .AboutRow3-image-style{
+        object-fit:cover;
+        max-width: 350px;
+        height: 400px;
+        padding-bottom: 60px;
+    }
+}
+@media screen and (max-width: 960px) and (min-width : 781px){
+    .AboutRow3-background-contents{
+        padding: 0rem;
+        background-color: rgba(247, 244, 244, 0.920);
+       color: black;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+    }
+    .AboutRow3-columns{
+        padding-top: 50px;
+        padding-bottom: 30px;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .AboutRow3-column1{
+        padding: 30px;
+    }
+    .AboutRow3-column2{
+        padding-top: 30px;
+        padding: 30px;
+    }
+    .AboutRow3-title{
+        font-size:x-large;
+        font-weight: 700;
+    }
+    .AboutRow3-description{
+        padding-top: 25px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height:1.7;
+    }
+    .AboutRow3-image-style{
+        object-fit:cover;
+        max-width: 350px;
+        height: 400px;
+        padding-bottom: 60px;
+    }
+}
+@media screen and (max-width: 1280px) and (min-width : 961px){
+    .AboutRow3-background-contents{
+        padding: 0rem;
+        background-color: rgba(247, 244, 244, 0.920);
+       color: black;
+       display: flex;
+    }
+    .AboutRow3-columns{
+        padding-top: 80px;
+        padding-bottom: 60px;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .AboutRow3-column1{
+        padding: 30px;
+    }
+    .AboutRow3-column2{
+        padding-top: 30px;
+        padding: 40px;
+    }
+    .AboutRow3-title{
+        font-size:x-large;
+        font-weight: 700;
+    }
+    .AboutRow3-description{
+        padding-top: 25px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height:1.7;
+    }
+    .AboutRow3-image{
+        padding: 40px;
+        
+    }
+    .AboutRow3-image-style{
+        object-fit:cover;
+        max-width: 350px;
+        height: 400px;
+        padding-top: 80px;
+        padding-bottom: 60px;
+    }
+}
+    

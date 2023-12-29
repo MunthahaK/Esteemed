@@ -1,0 +1,61 @@
+.complete-header{
+    background-color: #3f4142;
+    padding: 8px;
+    align-items: center;
+    display: flex;
+    justify-content:space-between;
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+    color: white;
+    padding-left: 60px;
+    padding-right: 40px;
+}
+.location-section{
+    display: inline-block;
+   
+}
+.phone-section{
+    display: inline-block;
+}
+.email-section{
+    color: white;
+    display: inline-block;
+}
+.follow-icons-section{
+    display: flex;
+}
+.text-design{
+    float: right;
+    font-size: 13px;
+    font-weight: 400;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 1px;
+}
+.icon_style_top{
+    width: 8;
+    height: 8;
+    color: rgb(255, 255, 255);
+}
+.box_icon_top{
+  display: flex;
+}
+.icon_card_top{
+    display:flex;
+    margin-left: 5px;
+    justify-content: center;
+    align-items: center;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color:rgb(3, 3, 3);
+    border-radius: 7px;
+}
+.icon_card_top:hover{
+    background-color: teal;
+    cursor: pointer;
+}
+@media (max-width: 800px){
+   .complete-header{
+    display: none;
+   }
+}

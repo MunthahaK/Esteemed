@@ -1,0 +1,19 @@
+.footer{
+   height: 70px;
+   background-color:rgb(34, 34, 34);
+    width: 100%;
+    text-align: center;
+    
+   
+}
+.title{
+    padding: 20px;
+    font-weight: 200;
+    font-size: 15px;
+    color: rgb(145, 143, 143);
+}
+@media (max-width: 500px){
+    .title{
+        font-size: 13px;
+    }
+}
