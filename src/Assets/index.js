@@ -18,6 +18,11 @@ import logo_mark from './logo_mark.png'
 import iconRowBanner from './iconRowBanner.jpg'
 import img1 from './img1.jpg'
 import mobileBanner from './mobileBanner.jpg'
+import ankle_support from './ankle_support.jpg'
+import body_belts from './body_belts.jpg'
+import forearm_product from './forearm_product.jpg'
+import fracture_aids from './fracture_aids.jpg'
+import image_placeholder from './image_placeholder.jpg'
 
 export{ 
         img1,
@@ -39,5 +44,10 @@ export{
         image31,
         logo_mark,
         iconRowBanner,
-        mobileBanner
+        mobileBanner,
+        ankle_support,
+        body_belts,
+        forearm_product,
+        fracture_aids,
+        image_placeholder
       }
