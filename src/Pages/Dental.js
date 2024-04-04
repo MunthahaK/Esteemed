@@ -14,8 +14,8 @@ function Dental() {
     <div>
       <ContactBanner title='Dental' image={banner}/>
       <AboutRow
-          description1='Esteemed Trading LLC is a company that continuously provides Sourcing, Trading Distribution and excellence in the Dental & Medical Sectors through outstanding quality and exclusive services & products.We import and export various products but mainly Dental & Medical, Safety Equipments worldwide.'
-          description2='We handle the production, distribution and the selection of local distributors in different countries. We set out to develop and distribute the products while maintaining the highest quality and evolving along with the times.'
+          description1='Esteemed Trading is a company that continuously provides Sourcing, Distribution and excellence in the Dental & Medical Sectors through outstanding quality and exclusive services & products.'
+          description2='We handle the distribution of different products throughout the UAE. We set out to develop and distribute the products while maintaining the highest quality and evolving along with the times.'
       />
       <ProductsItem productImage={services} productTitle='Dental Equipments'
                     productDescription='Mouth Mirror | Cotton Forceps | Periodontal Probe | Ultrasonic Scaler | Extracting Forceps | Dental Elevator | Air Water Syringe'

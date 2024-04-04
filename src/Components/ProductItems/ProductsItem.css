@@ -49,6 +49,7 @@
         object-position: center center;
     }
     .product-details{
+        text-align: center;
         padding: 30px;
     }
     .product-title-syle{
@@ -82,6 +83,7 @@
         object-position: center center;
     }
     .product-details{
+        text-align: center;
         padding: 25px;
     }
     .product-title-syle{

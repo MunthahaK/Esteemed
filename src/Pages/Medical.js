@@ -15,8 +15,8 @@ function Medical() {
   return (
     <div>
       <ContactBanner title='Medical' image={image31}/>
-      <AboutRow description1='Esteemed Trading LLC is a company that continuously provides Sourcing, Trading Distribution and excellence in the Dental & Medical Sectors through outstanding quality and exclusive services & products.We import and export various products but mainly Dental & Medical, Safety Equipments worldwide.'
-                description2='We handle the production, distribution and the selection of local distributors in different countries. We set out to develop and distribute the products while maintaining the highest quality and evolving along with the times.'
+      <AboutRow description1='Esteemed Trading is a company that continuously provides Sourcing, Distribution and excellence in the Dental & Medical Sectors through outstanding quality and exclusive services & products.'
+                description2='We handle the distribution of different products throughout the UAE. We set out to develop and distribute the products while maintaining the highest quality and evolving along with the times.'
                 />               
       <ProductsItem productImage={services0} productTitle='Personal Protective Products'
                 productDescription={<p>Masks <b>|</b>  Gloves <b>|</b> Head Cap <b>|</b> Safety Googles <b>|</b> Disposable Isolation Gown <b>|</b> Disposable Face Shield <b>|</b> Coverall <b>|</b> Shoe Cover <b>|</b> Hand Sleeves <b>|</b> Biohazard Bags</p>}
