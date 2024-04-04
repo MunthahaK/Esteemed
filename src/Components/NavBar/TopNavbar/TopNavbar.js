@@ -24,11 +24,11 @@ function TopNavbar() {
         <div className='follow-icons-section'>
             <h1 className='text-design'>Follow Us</h1>
             <div className='box_icon_top'>
-                 <span className='icon_card_top'> <FaFacebook className='icon_style_top'/> </span>
-                 <span className='icon_card_top'><FaTwitter className='icon_style_top'/></span>
-                 <span  className='icon_card_top'><FaInstagram className='icon_style_top'/></span>
-                 <span className='icon_card_top'><FaGoogle className='icon_style_top'/></span>
-                 </div>
+              <a href='https://www.facebook.com/Esteemedtr' target='_blank'><span className='icon_card_top'><FaFacebook className='icon_style_top'/></span></a>
+              <a href='https://www.twitter.com' target='_blank'><span className='icon_card_top'><FaTwitter className='icon_style_top'/></span></a>
+              <a href='https://www.instagram.com' target='_blank'><span  className='icon_card_top'><FaInstagram className='icon_style_top'/></span></a>
+              <a href='https://www.google.com' target='_blank'><span className='icon_card_top'><FaGoogle className='icon_style_top'/></span></a>
+            </div>
         </div>
     </div>
   )

@@ -23,6 +23,9 @@ import body_belts from './body_belts.jpg'
 import forearm_product from './forearm_product.jpg'
 import fracture_aids from './fracture_aids.jpg'
 import image_placeholder from './image_placeholder.jpg'
+import finger from './finger.jpg'
+import traction from './traction.jpg'
+import wellnes from './wellnes.jpg'
 
 export{ 
         img1,
@@ -49,5 +52,8 @@ export{
         body_belts,
         forearm_product,
         fracture_aids,
-        image_placeholder
+        image_placeholder,
+        finger,
+        traction,
+        wellnes
       }

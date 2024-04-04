@@ -10,7 +10,7 @@ function AboutRow({description1, description2}) {
         <img className='logo_mark_style' src={logo_mark} alt=''/>
        </div>
        <div className='text_section_about'>
-          <h2 className='title_small_about'>About Esteemed Trading LLC</h2>
+          <h2 className='title_small_about'>About Esteemed Trading</h2>
 
           <motion.h1 
          initial={{ opacity: 0, scale:0.8 }}

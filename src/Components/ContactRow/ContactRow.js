@@ -21,11 +21,11 @@ function ContactRow() {
               </div>
               <div className='contact_details_item'>Follow Us
               <div className='contact_box_icon'>
-                 <span className='contact_icon_card'> <FaFacebook className='contact_icon_style'/> </span>
-                 <span className='contact_icon_card'><FaTwitter className='contact_icon_style'/></span>
-                 <span  className='contact_icon_card'><FaInstagram className='contact_icon_style'/></span>
-                 <span className='contact_icon_card'><FaGoogle className='contact_icon_style'/></span>
-                 </div>
+                 <a href='https://www.facebook.com/Esteemedtr' target='_blank'><span className='contact_icon_card'><FaFacebook className='contact_icon_style'/></span></a>
+                 <a href='https://www.twitter.com' target='_blank'><span className='contact_icon_card'><FaTwitter className='contact_icon_style'/></span></a>
+                 <a href='https://www.instagram.com' target='_blank'><span  className='contact_icon_card'><FaInstagram className='contact_icon_style'/></span></a>
+                 <a href='https://www.google.com' target='_blank'><span className='contact_icon_card'><FaGoogle className='contact_icon_style'/></span></a>
+              </div>
               </div>
            </div>
        </div>

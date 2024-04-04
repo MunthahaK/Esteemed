@@ -43,8 +43,8 @@ a:link{
     color: rgb(3, 185, 185);
 }
 .icon_style{
-    width: 16;
-    height: 16;
+    width: 15px;
+    height: 15px;
     color: rgb(255, 255, 255);
 }
 
@@ -59,7 +59,7 @@ a:link{
     width: 2rem;
     height: 2rem;
     background-color:rgb(3, 3, 3);
-    border-radius: 9px;
+    border-radius: 8px;
 }
 .icon_card:hover{
     background-color: teal;

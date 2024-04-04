@@ -19,11 +19,11 @@ function Footer() {
                 <h2 className='title_style2'>Phone - +971 543 020 889</h2>
                 <Link to = '/contact'  onClick={ScrollToPageTop}><h2 className='title_style'>Email - sales@esteemedtr.com</h2></Link>
                 <h2 className='title_style2'>Follow Us</h2>
-                 <div className='box_icon'>
-                 <span className='icon_card'> <FaFacebook className='icon_style'/> </span>
-                 <span className='icon_card'><FaTwitter className='icon_style'/></span>
-                 <span  className='icon_card'><FaInstagram className='icon_style'/></span>
-                 <span className='icon_card'><FaGoogle className='icon_style'/></span>
+                <div className='box_icon'>
+                 <a href='https://www.facebook.com/Esteemedtr' target='_blank'><span className='icon_card'> <FaFacebook className='icon_style'/> </span></a>
+                 <a href='https://www.twitter.com' target='_blank'><span className='icon_card'><FaTwitter className='icon_style'/></span></a>
+                 <a href='https://www.instagram.com' target='_blank'><span  className='icon_card'><FaInstagram className='icon_style'/></span></a>
+                 <a href='https://www.google.com' target='_blank'><span className='icon_card'><FaGoogle className='icon_style'/></span></a>
                  </div>
               </div>
           </div>
@@ -41,7 +41,6 @@ function Footer() {
               <div className='title_box'>
                <Link to = '/dental' onClick={ScrollToPageTop}><h2 className='title_style'>Dental</h2></Link>
                <Link to = '/medical' onClick={ScrollToPageTop}><h2 className='title_style'>Medical</h2></Link>
-                <h2 className='title_style'>Marine</h2>
               </div>
           </div>
           <div className=''>

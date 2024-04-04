@@ -44,8 +44,8 @@
     display: flex;
   }
 .contact_icon_style{
-    width: 14px;
-    height: 14px;
+    width: 13px;
+    height: 13px;
     color: rgb(255, 255, 255);
 }
 .contact_icon_card{
@@ -56,7 +56,7 @@
     width: 1.7rem;
     height: 1.7rem;
     background-color:rgb(3, 3, 3);
-    border-radius: 10px;
+    border-radius: 8px;
 }
 .contact_icon_card:hover{
     background-color: teal;

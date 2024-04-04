@@ -11,8 +11,8 @@ import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
 const slides =[
     {
      url:`${banner1}`,
-     caption:"Welcome to Medical, Dental & Marine trading Hub!",
-     text:'Esteemed Trading LLC is a young and fast growing company led by an efficient team in serving hospitals and clinics in UAE.'
+     caption:"Welcome to Medical & Dental trading Hub!",
+     text:'Esteemed Trading is a young and fast growing company led by an efficient team in serving hospitals and clinics in UAE.'
     },
     {
      url:`${banner2}`,
@@ -31,7 +31,7 @@ const slides =[
   {
    url:`${mobileBanner}`,
    caption:"Welcome to Medical, Dental & Marine trading Hub!",
-   text:'Esteemed Trading LLC is a young and fast growing company led by an efficient team in serving hospitals and clinics in UAE.'
+   text:'Esteemed Trading is a young and fast growing company led by an efficient team in serving hospitals and clinics in UAE.'
   },
   {
    url:`${banner2}`,

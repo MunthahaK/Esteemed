@@ -10,7 +10,7 @@ function RowPost() {
     <div className="row">
 
         <div className="column_1">
-         <h2 className='title_small'>About Esteemed Trading LLC</h2>   
+         <h2 className='title_small'>About Esteemed Trading</h2>   
          <motion.h1 
          initial={{ opacity: 0, scale:0.8 }}
          whileInView={{ opacity: 1, scale:1 }}
@@ -20,7 +20,7 @@ function RowPost() {
           initial={{ opacity: 0, scale:0.8 }}
           whileInView={{ opacity: 1, scale:1 }}
           transition={{duration:0.6}}
-         className='description_1'>Esteemed Trading LLC is a company based in Abu Dhabi, United Arab Emirates. Since its inception in 2023, it has been engaged in sourcing, importing, and distributing various healthcare products such as medical disposables, dental products, and aesthetic products, as well as marine equipment and tools.</motion.h1>
+         className='description_1'>Esteemed Trading is a company based in Abu Dhabi, United Arab Emirates. Since its launch in 2023, it has been engaged in sourcing and distributing various healthcare products such as medical disposables, dental products and tools.</motion.h1>
          <motion.h1
           initial={{ opacity: 0, scale:0.8 }}
           whileInView={{ opacity: 1, scale:1 }}
@@ -50,7 +50,7 @@ function RowPost() {
           initial={{ opacity: 0, scale:0.8 }}
           whileInView={{ opacity: 1, scale:1 }}
           transition={{duration:0.6}}
-         className='description_1'>Our mission is to deliver excellent products and services to our customers, while also contributing to the economic and social development of the communities and countries in which we operate.</motion.h1>
+         className='description_1'>Our mission is to deliver excellent products and services to our customers, while also contributing to the economic and social development of the communities in which we operate.</motion.h1>
 
          <motion.h1
           initial={{ opacity: 0, scale:0.8 }}
