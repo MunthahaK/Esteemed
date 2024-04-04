@@ -18,13 +18,13 @@ function Dental() {
           description2='We handle the distribution of different products throughout the UAE. We set out to develop and distribute the products while maintaining the highest quality and evolving along with the times.'
       />
       <ProductsItem productImage={services} productTitle='Dental Equipments'
-                    productDescription='Mouth Mirror | Cotton Forceps | Periodontal Probe | Ultrasonic Scaler | Extracting Forceps | Dental Elevator | Air Water Syringe'
+                    productDescription={<p>Mouth Mirror <b>|</b> Cotton Forceps <b>|</b> Periodontal Probe <b>|</b> Ultrasonic Scaler <b>|</b> Extracting Forceps <b>|</b> Dental Elevator <b>|</b> Air Water Syringe</p>}
       />
       <ProductsItem productImage={services4} productTitle='Invisible Teeth Braces'
-                    productDescription='Lingual Braces | Invisalign Braces | Ceramic Braces'
+                    productDescription={<p>Lingual Braces <b>|</b> Invisalign Braces <b>|</b> Ceramic Braces</p>}
       />
       <ProductsItem productImage={image1} productTitle='Dental Implant Tools'
-                    productDescription='Restorative Drivers | Periodontal Probes | Drills & Burs | Drill Stoppers | Periotomes | Hemostats | Bone Mills | Extraction Forceps | Retractors | Needle Drivers'
+                    productDescription={<p>Restorative Drivers <b>|</b> Periodontal Probes <b>|</b> Drills & Burs <b>|</b> Drill Stoppers <b>|</b> Periotomes <b>|</b> Hemostats <b>|</b> Bone Mills <b>|</b> Extraction Forceps <b>|</b> Retractors <b>|</b> Needle Drivers</p>}
       />
       <FooterTop/>
       <Footer/>
