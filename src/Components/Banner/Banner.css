@@ -139,6 +139,11 @@
         object-fit:contain;
         height: 610px;
     }
+    .fade{ 
+        background-image: linear-gradient(to right,rgba(0,0,0,1),rgba(0,0,0,0)40%);
+        background-color: rgba(0,0,0,0.4);
+        height:610px ;
+    }
     .banner_contents{
         padding-top: 220px;
         margin-left: 20px;
