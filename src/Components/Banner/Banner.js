@@ -30,7 +30,7 @@ const slides =[
  const mobileViewSlides =[
   {
    url:`${mobileBanner}`,
-   caption:"Welcome to Medical, Dental & Marine trading Hub!",
+   caption:"Welcome to Medical & Dental trading Hub!",
    text:'Esteemed Trading is a young and fast growing company led by an efficient team in serving hospitals and clinics in UAE.'
   },
   {
